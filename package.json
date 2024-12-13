@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "cypress": "^13.16.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-terminal-report": "^7.1.0",
+    "cypress-xpath": "^2.0.1",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "cy:run": "npx cypress run",
+    "report:merge": "mochawesome-merge cypress/reports/mochawesome-report/*.json > cypress/reports/mochawesome.json",
+    "report:generate": "marge cypress/reports/mochawesome.json -f report -o cypress/reports/mochawesome-html-report"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.5"
+  }
+}

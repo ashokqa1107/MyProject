@@ -1,0 +1,47 @@
+{
+    "url": "http://10.100.6.107/greenmailer/#/login?path=",
+    "username": "Automation_Tester",
+    "password": "Automation12#$",
+    "campaignName":"sample_1",
+    "groupName": "Automation_group",
+    "Domain_Name-1": "technologyinfohub.com_test - NetInternet2 - ZXDEV (Shared)",
+    "Domain_Name-2": "technologyinfohub.com_test - NetInternet2 - ZXDEV (Shared)",
+    "offer_No": "103",
+    "creative": "3",
+    "mail_id_sendtext": "gimandi@zetaglobal.com",
+    "WaitTime_RefreshTime": [
+      100000,
+      4000
+    ],
+    "FTP_PATH": "/nfshome/sravuri/lists",
+    "FTP_filename": [
+      "l1.csv",
+      "l2.csv",
+      "l3.csv",
+      "l4.csv",
+      "l5.csv",
+      "16.csv"
+    ],
+    "FTP_PATH_FOR_WORMUPLIST": "/nfshome/sravuri/lists",
+    "FTP_filename_wormup": [
+      "l18.csv",
+      "l19.csv"
+    ],
+    "wormup_intervals": [
+      1,
+      1
+    ],
+    "FTP_PATH_FOR_SEEDLIST": "/nfshome/sravuri/lists",
+    "FTP_filename_for_Seed": [
+      "l5.csv",
+      "l6.csv"
+    ],
+    "mailid_manual_seed": "ashok.qa1107@gmail.com",
+    "scheduleName": "example_Schedule",
+  
+    "Deployment_wtime_Rtime": [
+      200000,
+      2000
+  
+    ]
+  }
